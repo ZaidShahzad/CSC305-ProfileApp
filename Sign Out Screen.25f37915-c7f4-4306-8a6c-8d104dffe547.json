@@ -1,4 +1,5 @@
 {
+    "id": "25f37915-c7f4-4306-8a6c-8d104dffe547",
     "type": "Screen",
     "translatedName": "Screen",
     "reactType": "ViewWithProps",
@@ -64,7 +65,6 @@
                     "color": "rgba(0, 0, 0, 1)",
                     "fontSize": 18,
                     "fontStyle": "normal",
-                    "textShadowOffset": {},
                     "letterSpacing": 0,
                     "textDecorationLine": "none",
                     "textDecorationStyle": "solid",
@@ -144,7 +144,6 @@
                     "top": "4.820093615301724%",
                     "display": "flex"
                 },
-                "capInsets": {},
                 "ParentId": "9c1ecdcc-ae5e-4f66-80ff-3750b25475f4",
                 "position": "absolute",
                 "edgeOffsets": 23
@@ -315,7 +314,6 @@
             "name": "Sign Out"
         }
     ],
-    "id": "25f37915-c7f4-4306-8a6c-8d104dffe547",
     "thunkableVersion": 266,
     "name": "Sign Out Screen"
 }
