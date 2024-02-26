@@ -8,21 +8,22 @@
                 }
             },
             "assets": {
-                "65c520c66609cec4cc01c445": {
+                "65dce4019142a39591a529d7": {
+                    "name": "ZG-removebg-preview.png",
+                    "originalname": "ZG-removebg-preview.png",
                     "externalStorageType": "GCS",
-                    "_id": "65c520c66609cec4cc01c445",
+                    "externalName": "users/65aebd9452fb9ef95ef1370e/projects/65dce4019142a39591a529d4/assets/65dce4019142a39591a529d7",
+                    "backendURI": "/project/65dce4019142a39591a529d4/getasset/65dce4019142a39591a529d7",
                     "size": "127260",
                     "mimetype": "image/png",
                     "encoding": "7bit",
-                    "originalname": "ZG-removebg-preview.png",
-                    "backendURI": "/project/65c51d9db38304c22f21018f/getasset/65c520c66609cec4cc01c445",
-                    "name": "ZG-removebg-preview.png",
-                    "externalName": "users/65aebd9452fb9ef95ef1370e/projects/65c51d9db38304c22f21018f/assets/65c520c66609cec4cc01c445",
+                    "_id": "65dce4019142a39591a529d7",
                     "createdAt": "2024-02-08T18:43:18.545Z",
                     "updatedAt": "2024-02-08T18:43:18.545Z",
                     "__v": 0,
-                    "signedUrl": "https://storage.googleapis.com/thunkable-x-production/users/65aebd9452fb9ef95ef1370e/projects/65c51d9db38304c22f21018f/assets/65c520c66609cec4cc01c445?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=thunkable-ios%40thunkable-ios.iam.gserviceaccount.com%2F20240211%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20240211T213347Z&X-Goog-Expires=172800&X-Goog-SignedHeaders=host&X-Goog-Signature=5fbeea16df843d114fbb49b9ea8d32070a6f24b8df2d63da3faeb0b570ff07d3bfd217c1ac4954b39485935d4a1a42c6a3ad60f5978a49c07120c3c5b2a15d73facf0be6c5262ae6436002cec2d23dd4840d4d834bbe097b1ae908e2fb081b52375f9f97f62f67650c97c8977a5ef56f689c53096bbb84d81d27533141b145ecc705354c0979ba81ce6c4b3a66141576ab9cbd5feef68a6f613383e3d110076066e9e83e6b0fc53d833bcb26c4fff8555bd3aa9593780775bbd0fc7c81cd0d8bd73f798ab2671329b4002ad66083fb90d83e2f8869812970f92ca8076e8efdaf971aaaa6f6ee839dae6cf8980723266cfaa4a996c0ea94a96717bc70b98db8d8",
-                    "signedUrlExpirationTime": 1707860027420
+                    "id": "65dce4019142a39591a529d7",
+                    "signedUrl": "https://storage.googleapis.com/thunkable-x-production/users/65aebd9452fb9ef95ef1370e/projects/65dce4019142a39591a529d4/assets/65dce4019142a39591a529d7?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=thunkable-ios%40thunkable-ios.iam.gserviceaccount.com%2F20240226%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20240226T191831Z&X-Goog-Expires=172800&X-Goog-SignedHeaders=host&X-Goog-Signature=8a206e32c564129734eea090ee337e732c1dcd1aba53b73a4031abb0c16d7efb02a7f775d40070dbdebd03493129f146531530c1fe1974bbbb7ddbfeb195c6664f4f4c43d4eee8622ccc52de309660d6f1768fa4aa8cb68aca38241d28139c6742b688955be9cc0381bb5e080738d884d057588efab34d2b7645925cc8de77d33b025ec80b7786c0694e4c853e9903e2b46b39e426f49adb5f0434a39f2ae76aa58a214d7d53d407ff77471a36896dd6702aab94e57948ac07d9e703ef73fbcb140ff9814ea6e1bb0f6b83d5f9810114ea1f70b1709075bd1ee2a99d59e152e7d1baf736b32af1f4b2c6689839b4e1f6c4de24652a1bf56c06a05b37b9f73dad",
+                    "signedUrlExpirationTime": 1709147911559
                 }
             },
             "backendUpgradeVersion": 24,
@@ -116,7 +117,7 @@
             "figmaComponents": {},
             "description": null,
             "icon": null,
-            "projectName": "CSC305-ProfileApp - Main App (Project Added To Github)",
+            "projectName": "CSC305-ProfileApp - Main App (feat: admob monetization)",
             "settings": {
                 "teamId": null,
                 "appName": "CSC305-ProfileApp",
@@ -148,7 +149,10 @@
                 "cloudinaryAPISecret": "",
                 "permissions": {
                     "ios": {
-                        "usageDescriptions": {}
+                        "usageDescriptions": {
+                            "NSCameraUsageDescription": "",
+                            "NSPhotoLibraryUsageDescription": ""
+                        }
                     }
                 },
                 "googleMapAPIKeyAndroid": null,
@@ -159,7 +163,7 @@
                 "appleOAuthWebClientID": null,
                 "appleOAuthWebRedirectURI": null,
                 "admobAppIdIOS": null,
-                "admobAppIdAndroid": null,
+                "admobAppIdAndroid": "ca-app-pub-5308577969280189~7342218601",
                 "admobUserTrackingUsageDescription": null,
                 "__typename": "ProjectSettings"
             },
@@ -194,7 +198,10 @@
                 "cloudinaryAPISecret": "",
                 "permissions": {
                     "ios": {
-                        "usageDescriptions": {}
+                        "usageDescriptions": {
+                            "NSCameraUsageDescription": "",
+                            "NSPhotoLibraryUsageDescription": ""
+                        }
                     }
                 },
                 "googleMapAPIKeyAndroid": null,
@@ -205,11 +212,11 @@
                 "appleOAuthWebClientID": null,
                 "appleOAuthWebRedirectURI": null,
                 "admobAppIdIOS": null,
-                "admobAppIdAndroid": null,
+                "admobAppIdAndroid": "ca-app-pub-5308577969280189~7342218601",
                 "admobUserTrackingUsageDescription": null,
                 "__typename": "ProjectSettings"
             },
-            "hasAdmob": false,
+            "hasAdmob": true,
             "hasBluetoothLowEnergy": null,
             "hasPushNotification": false,
             "hasAssistant": null,
@@ -245,6 +252,16 @@
                 "71e1b0fc-d23a-4771-8899-00816d2bb22a": {
                     "scope": "APP",
                     "name": "user ID",
+                    "screenId": "9c1ecdcc-ae5e-4f66-80ff-3750b25475f4"
+                },
+                "e8e58560-b140-413f-a9f1-e28e61206380": {
+                    "scope": "APP",
+                    "name": "currentlySigningUp",
+                    "screenId": "9c1ecdcc-ae5e-4f66-80ff-3750b25475f4"
+                },
+                "9961cddd-5a82-47aa-afb6-f80694c9628f": {
+                    "scope": "APP",
+                    "name": "currentlySigningUp",
                     "screenId": "9c1ecdcc-ae5e-4f66-80ff-3750b25475f4"
                 }
             },
